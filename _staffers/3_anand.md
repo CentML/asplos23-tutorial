@@ -4,4 +4,4 @@ website: https://anandj.in/
 role: Organizer
 ---
 
-PhD student at University of Toronto, Chief Software Architect at CentML Inc.
+PhD student at University of Toronto, <br> Chief Software Architect at CentML Inc.
