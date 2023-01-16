@@ -6,7 +6,7 @@ remote_theme: pmarsceill/just-the-docs
 
 aux_links:
   "GitHub":
-    - "https://github.com/chips-compilers-mlsys-21/chips-compilers-mlsys-21"
+    - "https://github.com/CentML/asplos23-tutorial"
 aux_links_new_tab: true
 
 heading_anchors: true
