@@ -3,7 +3,7 @@ title: March 25th, 2023
 layout: module
 ---
 
-1:40 -- 3:00
+1:40 -- 3:20
 
 : Find Inefficiencies and Rapid Model Profiling
   : Yubo Gao
