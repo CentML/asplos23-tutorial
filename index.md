@@ -36,7 +36,6 @@ everything you need to get started with Hidet to rapidly develop performant tens
 {% for module in site.modules %}
 {{ module }}
 {% endfor %}
-(Date, time, and titles are subject to change.)
 
 ## See also
 
