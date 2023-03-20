@@ -6,7 +6,7 @@ layout: module
 1:40 -- 3:20
 
 : Find Inefficiencies and Rapid Model Profiling with CentML DeepView
-  > To get the most our of this tutorial, please read the [preparation section]({% link deepview.md %}).
+  > To get the most out of this tutorial, please read the [preparation section]({% link deepview.md %}).
   : Yubo Gao
 
 3:20 -- 3:40

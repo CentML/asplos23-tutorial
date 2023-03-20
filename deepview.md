@@ -11,7 +11,7 @@ In this segment, we introduce the typical deep-learning (DL) workload from a sys
 ## Preparation
 To get the most out of the tutorial, please preferably have the following ready when you attend this tutorial:
 1. Bring a laptop computer with [Visual Studio Code](https://code.visualstudio.com/). Install the [Remote-SSH plugin](https://code.visualstudio.com/docs/remote/ssh), which will be used to launch profiling on a remote workstation.
-2. Have remote workstation running Linux with a NVIDIA GPU that you can ssh into. You also need to have Python and CUDA installed. You can verify this information by running `nvidia-smi` then checking for the CUDA version.
+2. Have a remote workstation running Linux with a NVIDIA GPU that you can ssh into. You also need to have Python and CUDA installed. You can verify this information by running `nvidia-smi` then checking for the CUDA version.
 3. (optional) If you wish to install DeepView ahead of time, please consult [our documentation](https://docs.centml.ai/install/install_ssh.html#install-ssh). We will also allocate time during the workshop for you to install DeepView.
 
 ## Slides
