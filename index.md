@@ -1,6 +1,8 @@
 ---
 layout: home
 title: Agenda
+nav_order: 1
+permalink: /
 ---
 
 # Predicting and Optimizing Runtime Performance of Deep Learning Models

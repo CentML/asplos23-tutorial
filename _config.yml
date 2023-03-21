@@ -34,8 +34,20 @@ exclude: ["Gemfile", "Gemfile.lock", "LICENSE", "README.md"]
 
 # Collections for website data
 collections:
+#  hidet_tutorials:
+#    output: true
+#    permalink: /hidet-tutorials/:path/
   staffers:
   modules:
+    
+#just_the_docs:
+#  # Define which collections are used in just-the-docs
+#  collections:
+#    # Reference the "tests" collection
+#    hidet_tutorials:
+#      # Give the collection a name
+#      name: "Hidet Tutorials"
+##
 
 # Default layouts for each collection type
 defaults:
@@ -46,6 +58,8 @@ defaults:
       layout: staffer
       subpath: '/assets/images/'
 
+plugins:
+  - jekyll-jupyter-notebook
 
 compress_html:
   clippings: all
