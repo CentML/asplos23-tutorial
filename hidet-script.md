@@ -1,5 +1,5 @@
 ---
 layout: home
-title: Hidet Tutorial
+title: Hidet Script Tutorial
 has_children: true
 ---
