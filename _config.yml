@@ -1,6 +1,6 @@
 title: "ASPLOS'23 Tutorial"
 theme: just-the-docs
-remote_theme: pmarsceill/just-the-docs
+remote_theme: just-the-docs/just-the-docs
 
 # logo: "/assets/images/logo-with-text.png"
 
@@ -69,3 +69,21 @@ compress_html:
   startings: []
   blanklines: false
   profile: false
+
+callouts_level: quiet # or loud
+callouts:
+  highlight:
+    color: yellow
+  important:
+    title: Important
+    color: blue
+  new:
+    title: New
+    color: green
+  note:
+    title: Note
+    color: purple
+  warning:
+    title: Warning
+    color: red
+
