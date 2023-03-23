@@ -7,6 +7,8 @@
 @import 'schedule';
 @import 'staffer';
 
+$content-width: 1000px;
+
 // Overrides
 a abbr[title] {
   border-bottom: none;
@@ -80,12 +82,6 @@ summary {
 
 summary {
   @extend .btn, .btn-outline;
-}
-
-.main-content-wrap {
-  //max-width: $content-width;
-  max-width: 1200px;
-  margin: auto;
 }
 
 .main-content {
