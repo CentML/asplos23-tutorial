@@ -1,6 +1,7 @@
 ---
 layout: home
 title: DeepView Tutorial
+nav_order: 2
 ---
 
 # Find Inefficiencies and Rapid Model Profiling with CentML DeepView
