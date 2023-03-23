@@ -12,6 +12,25 @@ a abbr[title] {
   border-bottom: none;
 }
 
+.jp-OutputArea-output pre {
+    border: black !important;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: scroll;
+    overflow-y: auto;
+}
+
+.jp-RenderedText pre .ansi-cyan-fg {
+    color: #49adaf !important;
+}
+.jp-RenderedText pre .ansi-white-fg {
+    color: #676459 !important;
+}
+
+.jp-Notebook {
+    padding: 0 !important;
+}
+
 abbr[title] {
   text-decoration: none;
 }
