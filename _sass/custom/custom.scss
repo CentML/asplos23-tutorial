@@ -12,6 +12,13 @@ a abbr[title] {
   border-bottom: none;
 }
 
+.ipynb-container {
+  position: relative;
+  width: 100%;
+  margin: 0 auto;
+  padding-bottom: 701px;
+}
+
 .jp-OutputArea-output pre {
     border: black !important;
     margin: 0px;

@@ -28,8 +28,9 @@ color_scheme: d2l
 tagline:
 description:
 author:
-baseurl: # the subpath of your site, e.g. /blog
-url:
+baseurl: /asplos23-tutorial # the subpath of your site, e.g. /blog
+#baseurl:
+url: https://centml.github.io # the base hostname & protocol for your site, e.g. http://example.com
 exclude: ["Gemfile", "Gemfile.lock", "LICENSE", "README.md"]
 
 # Collections for website data
