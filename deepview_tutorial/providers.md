@@ -2,7 +2,7 @@
 layout: home
 title: Writing Providers
 parent: DeepView Tutorial
-nav_order: 3
+nav_order: 4
 ---
 
 # Providers
