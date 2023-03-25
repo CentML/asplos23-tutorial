@@ -23,6 +23,20 @@ programming model to provide the necessary background for the motivation of the 
 introduce Hidet and demonstrate its expressive power relative to the CUDA. At the end of this tutorial, you will have 
 everything you need to get started with Hidet to rapidly develop performant tensor programs.
 
+<div style="clear: both;"></div>
+
+## Agenda
+
+{: .important}
+> To get the most out of the tutorial, please preferably have the following ready when you attend this tutorial:
+> 1. Bring a laptop computer with [Visual Studio Code](https://code.visualstudio.com/). Install the [Remote-SSH plugin](https://code.visualstudio.com/docs/remote/ssh), which will be used to launch profiling on a remote workstation.
+> 2. (Recommended) Have a remote workstation running Linux with a NVIDIA GPU that you can ssh into. You also need to have Python and CUDA installed. 
+
+{% for module in site.modules %}
+{{ module }}
+{% endfor %}
+
+<div style="clear: both;"></div>
 
 ## Organizers
 
@@ -31,13 +45,6 @@ everything you need to get started with Hidet to rapidly develop performant tens
 {{ staffer }}
 {% endfor %}
 
-<div style="clear: both;"></div>
-
-## Agenda
-
-{% for module in site.modules %}
-{{ module }}
-{% endfor %}
 
 ## See also
 
