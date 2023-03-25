@@ -45,6 +45,7 @@ everything you need to get started with Hidet to rapidly develop performant tens
 {{ staffer }}
 {% endfor %}
 
+<div style="clear: both;"></div>
 
 ## See also
 
