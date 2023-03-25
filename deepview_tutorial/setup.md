@@ -2,13 +2,13 @@
 layout: home
 title: Environment Setup
 parent: DeepView Tutorial
-nav_order: 2
+nav_order: 1
 ---
 
 # Environment Setup
 
 ## Prerequisites
-(If you are connecting to your own Desktop machine)Please ensure a version of PyTorch compiled with CUDA is installed in your current environment. To verify this, run:
+(If you are connecting to your own Desktop machine) Please ensure a version of PyTorch compiled with CUDA is installed in your current environment. To verify this, run:
 ```bash
 python -c "import torch; print(torch.version.cuda)"
 ```
@@ -19,13 +19,28 @@ Next, clone our repository that contains the source code for the demo.
 git clone https://github.com/CentML/asplos23-tutorial.git
 ```
 
-## Install DeepView Backend
-**The following components should be installed on your GPU workstation.**
-
-First, create a virtual environment
+## Running the Jupyter Notebook
+First, create a virtual environment and install the necessary dependencies.
 ```bash
 virtualenv venv && source venv/bin/activate
+pip install jupyter
 ```
+
+Next, launch the notebook from the `project` directory:
+```bash
+cd asplos23-tutorial/project
+jupyter notebook --ip 0.0.0.0
+```
+
+To connect to the notebook, following one of the listed instructions depending on your setup:
+* **If using your own workstation**, create a tunnel to your machine with:
+```bash
+ssh -L 8888:localhost:8888 <machine_ip>
+```
+* **If using one of our provided VMs**, access the notebook directly at `<machine_ip>:8888`.
+
+## Install DeepView Backend
+**The following components should be installed on your GPU workstation.**
 
 The DeepView backend provides utility to profile your DL models (DeepView.Profile) as well as to predict its performance on other hardware (DeepView.Predict).
 

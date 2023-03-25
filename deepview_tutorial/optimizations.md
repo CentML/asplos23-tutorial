@@ -2,7 +2,7 @@
 layout: home
 title: Training Optimizations
 parent: DeepView Tutorial
-nav_order: 1
+nav_order: 2
 ---
 
 <div class="jupyter-notebook" style="position: relative; width: 100%; margin: 0 auto;">
