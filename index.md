@@ -38,6 +38,13 @@ everything you need to get started with Hidet to rapidly develop performant tens
 
 <div style="clear: both;"></div>
 
+## Slides
+[DeepView Slides](deepview_slides.pdf)
+
+[Hidet Slides](hidet_tutorial.pdf)
+
+<div style="clear: both;"></div>
+
 ## Organizers
 
 {% assign organizers = site.staffers | where: 'role', 'Organizer' %}
